@@ -33,7 +33,7 @@ export default class Form extends Component {
           <input
             type="text"
             name="name"
-            placeholder="Vova Zelenskiy"
+            placeholder="Enter name ..."
             pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
             title="Имя может состоять только из букв, апострофа, тире и пробелов. Например Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan и т. п."
             required

@@ -59,11 +59,3 @@ export default class Form extends Component {
     );
   }
 }
-
-Form.propTypes = {
-  type: PropTypes.string,
-  name: PropTypes.number,
-  placeholder: PropTypes.string,
-  pattern: PropTypes.string,
-  title: PropTypes.string,
-};
